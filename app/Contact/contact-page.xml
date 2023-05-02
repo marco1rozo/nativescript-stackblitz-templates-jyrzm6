@@ -1,0 +1,21 @@
+<Page
+    navigatingTo="onNavigatingTo"  
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ActionBar>
+        <Label text="Contatos"></Label>
+    </ActionBar>
+
+    <SearchBar class=".div2"
+        id="contactSearchBar"
+        hint="Pesquisar..."
+        text="{{sbText}}"
+        clear="onClear"
+        submit="onSubmitSearchContact"
+    />
+
+    <GridLayout class="page__content">
+        <Label class="page__content-icon far" text="&#xf1ea;"></Label>
+        <Label class="page__content-placeholder" text="<!-- Browse page content goes here -->"></Label>
+    </GridLayout>
+</Page>

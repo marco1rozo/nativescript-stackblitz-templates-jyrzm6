@@ -1,0 +1,29 @@
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Button.-primary {
+  font-size: 18;
+  background-color: #091834;
+}
+
+label {
+  color: #e7f7d4;
+}
+
+html {
+  background-color: #e7f7d4;
+}
+
+searchBar .div1 {
+  background-color: #448d76;
+  color: #091834;
+}
+
+.div2 {
+  background-color: #e7f7d4;
+  color: #1258dc;
+}

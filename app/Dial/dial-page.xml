@@ -1,0 +1,27 @@
+<Page
+    navigatingTo="onNavigatingTo"  
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ActionBar backgroundColor="">
+        <Label text="Dial &#9743;"></Label>
+    </ActionBar>
+
+<DockLayout stretchLastChild="false" backgroundColor="navy">
+  <label text="top" dock="top" height="50%" backgroundColor="lightblue" />
+    <GridLayout columns="*, *, *" rows="*, *, *, *, *" class="page__content">
+      <Button text="7" row="0" col="0" />
+      <Button text="8" row="0" col="1" />
+      <Button text="9" row="0" col="2" />
+      <Button text="4" row="1" col="0" />
+      <Button text="5" row="1" col="1" />
+      <Button text="6" row="1" col="2" />
+      <Button text="1" row="2" col="0" />
+      <Button text="2" row="2" col="1" />
+      <Button text="3" row="2" col="2" />
+      <Button text="*" row="3" col="0" />
+      <Button text="0" row="3" col="1" />
+      <Button text="#" row="3" col="2" />
+    </GridLayout>
+</DockLayout>
+
+</Page>

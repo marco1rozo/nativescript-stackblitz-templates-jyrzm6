@@ -1,0 +1,13 @@
+<TabView androidTabsPosition="bottom">
+    <TabViewItem title="Dial &#9743;" >
+        <Frame defaultPage="Dial/dial-page" />
+    </TabViewItem>
+
+    <TabViewItem title="Contact" >
+        <Frame defaultPage="Contact/contact-page" />
+    </TabViewItem>
+
+    <TabViewItem title="Stats" >
+        <Frame defaultPage="Stats/stats-page" />
+    </TabViewItem>
+</TabView>
